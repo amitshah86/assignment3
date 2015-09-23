@@ -4,16 +4,15 @@ body ul {
 
 .octocat {
   border-bottom: 1px solid black;
-  width: 302px;
+  width: 30%;
   display: inline-block;
   float: left;
   margin: 10px;
 
 }
-
 .octocat img{
-  width: 300px;
-  height: 300px;
+  width: 364px;
+  height: 350px;
   display: inline-block;
   border: 1px solid black;
   float: left;
@@ -23,24 +22,34 @@ body ul {
   width: 20px;
   height: 20px;
   float: right;
+  padding: 0px;
   
 }
 .authors {
   float: right;
-}
+  padding-top: 3px;
+  padding-left: 3px;
 
+}
 .image-caption {
-  text-align: right;
+  float: right;
+  vertical-align: middle;
+  padding-top: 7px
 
 }
+.image-number::before {
+ content: "#";
 
+}
 .image-number {
   float: left;
+  padding-top: 7px;
+
 }
 .image-footer {
-  height: 320px;
-  width:  302px;
+
 }
+
 
 
 
