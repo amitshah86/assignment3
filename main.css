@@ -1,0 +1,50 @@
+body ul {
+  list-style: none; 
+}
+
+.octocat {
+  border-bottom: 1px solid black;
+  width: 302px;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+
+}
+
+.octocat img{
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+}
+
+.authors img{
+  width: 20px;
+  height: 20px;
+  float: right;
+  
+}
+.authors {
+  float: right;
+}
+
+.image-caption {
+  text-align: right;
+
+}
+
+.image-number {
+  float: left;
+}
+.image-footer {
+  height: 320px;
+  width:  302px;
+}
+
+
+
+
+
+  
+  
