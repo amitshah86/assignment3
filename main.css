@@ -17,6 +17,9 @@ body ul {
   border: 1px solid black;
   float: left;
 }
+a {
+  text-decoration: none;
+}
 
 .authors img{
   width: 20px;
@@ -54,7 +57,7 @@ body ul {
   height: 0;
   border-style: solid;
   border-width: 7px 8px 0 8px;
-  border-color: #007bff transparent transparent transparent;
+  border-color: #4a4f52 transparent transparent transparent;
   position: absolute;
   right: 3px;
   bottom: 25px;
